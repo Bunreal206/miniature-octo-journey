@@ -1,7 +1,63 @@
-.container{
+.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.background{
+    color-scheme: dark;
+    background-color: rgb(44, 42, 42);
+    color: aliceblue;
+}
+
+.spacing{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
+.headline{
+    margin-left: 0px;
+    display: flex;
+    justify-content: left;
     align-items: center;
-    height: 100vh;
+    height: 10dvh;
+    border: 10px solid rgb(139, 170, 151);
+    background-color: rgb(89, 136, 197);
+
+}
+
+
+.menu_index{
+    border: 10px rgb(91, 130, 189);
+    border-style: double;
+    display: flex;
+    justify-content: left;
+    padding: 10px 15px;
+    float: left;
+}
+
+.box{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start; 
+}
+
+.lib{
+    background-color: rgb(59, 134, 124);
+    width: 130dvh;
+    height: 130dvh;
+    display: flex;
+    margin-top: 20px;
+    border: 10px dotted rgb(75, 34, 62);
+}
+
+.menu_ver{
+    background-color: rgb(157, 175, 123);
+    width: 50dvh;
     height: 100dvh;
+    margin-top: 20px;
+    border: 10px dotted rgb(75, 34, 62);
 }
