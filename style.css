@@ -31,8 +31,7 @@
     margin-left: 0px;
     display: flex;
     justify-content: right;
-    align-items: center;
-    height: 10dvh;
+    align-items: right;
     border: 10px solid rgb(139, 170, 151);
     background-color: rgb(89, 136, 197);
 
