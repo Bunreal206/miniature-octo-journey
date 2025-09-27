@@ -27,6 +27,17 @@
 
 }
 
+.headline2{
+    margin-left: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10dvh;
+    border: 10px solid rgb(139, 170, 151);
+    background-color: rgb(89, 136, 197);
+
+}
+
 
 .menu_index{
     border: 10px rgb(91, 130, 189);
@@ -36,6 +47,12 @@
     padding: 10px 15px;
     float: left;
 }
+
+.menu_index:hover {
+    background-color: rgb(215, 39, 198);
+    zoom: 120%;
+}
+
 
 .box{
     display: flex;
