@@ -1,3 +1,15 @@
+.row{
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+.column{
+    display: flex;
+    flex-direction: row; 
+    gap: 16dvh;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -37,7 +49,6 @@
 
 }
 
-
 .menu_index{
     border: 10px rgb(91, 130, 189);
     border-style: double;
@@ -68,6 +79,18 @@
     display: flex;
     margin-top: 20px;
     border: 10px dotted rgb(75, 34, 62);
+    justify-content: center;
+
+    
+}
+
+.lib_item{
+    background-color: rgb(233, 248, 246);
+    width: 25dvh;
+    height: 35dvh;
+    display: flex;
+    margin-top: 20px;
+    border: 10px solid rgb(75, 34, 62);
 }
 
 .menu_ver{
@@ -76,4 +99,17 @@
     height: 100dvh;
     margin-top: 20px;
     border: 10px dotted rgb(75, 34, 62);
+}
+
+.lib_index_page_menu{
+    border: 10px rgb(91, 130, 189);
+    border-style: double;
+    display: flex;
+    justify-content: left;
+    padding: 10px 15px;
+    float: left;
+}
+
+.lib_index_page_menu:hover {
+    background-color: rgb(70, 161, 235);
 }
